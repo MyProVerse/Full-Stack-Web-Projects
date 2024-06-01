@@ -1,4 +1,4 @@
-# SmartShopping E-Commerce Website & Portfolio
+# Full Stack Development
 
 This repository includes two projects: the SmartShopping E-Commerce website and my personal Portfolio website. Both projects demonstrate my skills in full-stack web development using HTML, CSS, JavaScript, Bootstrap, PHP, and MySQL.
 
@@ -10,14 +10,13 @@ This repository includes two projects: the SmartShopping E-Commerce website and 
     - [Technologies Used](#technologies-used)
     - [Setup and Installation](#setup-and-installation)
     - [Usage](#usage)
-    - [Contact](#contact)
 2. [Portfolio Website](#portfolio-website)
     - [Pages](#portfolio-pages)
     - [Technologies Used](#portfolio-technologies-used)
     - [Setup and Installation](#portfolio-setup-and-installation)
     - [Usage](#portfolio-usage)
-    - [Contact](#portfolio-contact)
-3. [Contributing](#contributing)
+3. [Contact](#contact)
+4. [Contributing](#contributing)
 
 ## SmartShopping E-Commerce Website
 
