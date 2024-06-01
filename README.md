@@ -8,13 +8,9 @@ This repository includes two projects: the SmartShopping E-Commerce website and 
     - [Features](#features)
     - [Pages](#pages)
     - [Technologies Used](#technologies-used)
-    - [Setup and Installation](#setup-and-installation)
-    - [Usage](#usage)
 2. [Portfolio Website](#portfolio-website)
     - [Pages](#portfolio-pages)
     - [Technologies Used](#portfolio-technologies-used)
-    - [Setup and Installation](#portfolio-setup-and-installation)
-    - [Usage](#portfolio-usage)
 3. [Contact](#contact)
 4. [Contributing](#contributing)
 
