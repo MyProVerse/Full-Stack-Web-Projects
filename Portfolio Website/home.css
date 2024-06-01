@@ -1,0 +1,124 @@
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42rem;
+  color: #fff;
+  text-align: center;
+ 
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+ height: 42rem;
+ width: 100%;
+ background-image: linear-gradient(45deg, rgba(0, 0, 0) 50%, rgba(255, 68, 0) 50%);
+  z-index: -1;
+ 
+}
+
+  .hero-section .container {
+    max-width: 960px;
+    padding: 0 20px;
+  }
+  .hero-section h1 span {
+    color: orangered;
+  }
+  .hero-section h1 {
+    font-size: 2.5rem; /* Large, readable font size */
+    /* margin-bottom: 0.5em; */
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem; /* Subtitle */
+    margin-bottom: 1.5em;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: white;
+    color: orangered;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #333; /* Slightly darker on hover */
+  }
+  
+  .work-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px 0 20px;
+    background-color: orangered;
+    min-height: 42rem;
+  }
+  
+  .work-container {
+    display: flex;
+   
+    
+    width: 100%;
+    gap: 20px; 
+  }
+  .work-image{
+    width: 70%;
+  }
+  .work-image img {
+    max-width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: adds rounded corners to your image */
+  }
+  
+  .work-content {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .work-content h2 {
+
+    margin: 20px 0;
+    color: black;
+  
+  }
+  
+  .work-content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .work-btn {
+    padding: 10px 20px;
+    background-color: white; 
+    color: orangered;
+    text-decoration: none;
+    border-radius: 5px; 
+   transition: background-color .3s ease-in-out;
+  }
+  .work-btn:hover{
+    background-color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1080px) {
+    .work-container {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
+    .work-content{
+      max-width: 100%;
+      padding-bottom: 50px;
+    }
+    
+    .work-image{
+      width: 100%;
+    
+    }
+  }
+  

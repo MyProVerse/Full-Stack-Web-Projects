@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Makes sure padding doesn't affect the overall width */
+}
+
+textarea {
+    resize: vertical; /* Allows vertical resize */
+}
+
+button[type="submit"] {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+textarea{
+    resize: none;
+}
+button[type="submit"]:hover {
+    background-color: #e43f00;
+}
+
+/* Styling for validation error messages or success messages */
+.error-message,
+.success-message {
+    color: #ff0000; /* Red color for errors */
+    margin-bottom: 20px;
+}
+
+.success-message {
+    color: #008000; /* Green for success */
+}

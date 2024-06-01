@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #333;
+    padding: 20px 20px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: auto;
+}
+.max-area-of-container{
+    max-width: 1220px;
+}
+
+.logo-container a{
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+ul,ol{
+    list-style: none;
+}
+.nav-links {
+
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 40px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: orangered;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    display: none;
+    background-color: #333;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+
+.site-footer {
+    background-color: #333;
+    color: white;
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 16px;
+}
+
+.footer-container {
+    max-width: 1220px;
+    margin: auto;
+}
+
+.site-footer a {
+    color: white;
+   
+    transition: color 0.3s ease;
+}
+.download-resume{
+    padding: 10px;
+    background-color: orangered;
+ 
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+    
+
+}
+.copy-rights{
+    margin-top: 25px;
+}
+.download-resume:hover{
+    background-color: white;
+    color: white;
+}
+
+.contact-head{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+}
+.site-footer a:hover {
+    color: orangered;
+}
+
+.social-icons {
+  
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.social-icons a:nth-child(1)
+{
+    margin: 0 !important;
+}
+.social-icons a{
+
+    margin-left: 20px;
+    
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons i {
+    font-size: 30px; /* Adjust the size of the icons */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links-container {
+        position: absolute;
+        top: 76px;
+        left: -100%;
+        border-top: 5px solid grey;
+    
+        width: 100%;
+        padding: 20px;
+        background-color: #333;
+        transition: all .75s ease-in-out;
+    }
+    .nav-links-container.active {
+        border-top: 5px solid orangered;
+        position: absolute ;
+       left: 0;
+      }
+      
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        
+        margin: 10px 0;
+        transition: all .5s ease-in-out;
+        
+    }
+    .nav-links li a{
+       
+      color: white;
+      transition: all .3s ease-in-out;
+        
+    }
+    .nav-links li:hover{
+        background-color: white;
+
+    }
+    .nav-links li:hover a{
+        color:orangered;
+        font-weight: 600;
+    }
+    
+    .nav-toggle {
+        display: block;
+    }
+}

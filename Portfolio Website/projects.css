@@ -1,0 +1,33 @@
+
+   .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.project-wrapper{
+    min-height: 30rem;
+
+}
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease;
+}
+ 
+.project-card:hover {
+    transform: translateY(10px);
+    border-color: black;
+
+
+}
+.project-link {
+    color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+
