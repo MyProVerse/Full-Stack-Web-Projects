@@ -12,7 +12,7 @@ This repository includes two projects: the SmartShopping E-Commerce website and 
     - [Pages](#portfolio-pages)
     - [Technologies Used](#portfolio-technologies-used)
 3. [Contact](#contact)
-4. [Contributing](#contributing)
+
 
 ## SmartShopping E-Commerce Website
 
