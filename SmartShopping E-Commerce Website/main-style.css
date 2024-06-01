@@ -1,0 +1,104 @@
+
+*{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+body,html{
+height:100%;
+width:100%;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+.icons ul{
+justify-content: space-around;
+align-items: center;
+}
+.logo-icons{
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-link:hover{
+    color: #dc3545 !important; 
+}
+
+
+.navbar-upper-side{
+    background-color: black !important;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.carousel-item img{
+    height: 35rem !important;
+    object-fit: cover;
+    
+}
+.latest-prod{
+    background-color: lightgray;
+    
+    padding: 10px;
+    border-left:15px solid #dc3545 ;
+    max-width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+.product-card .card:hover{
+    box-shadow: 1px 1px 30px lightgray;
+
+}
+.content .card img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+
+
+
+.icons li a i,
+.footer-icons i {
+    font-size: 20px;
+    color: white;
+}
+
+.icons li a i:hover {
+    color: lightslategray;
+}
+
+.footer-icons i:hover {
+    color: #dc3545;
+}
+
+.upper-nav-list li a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.upper-nav-list li a:hover {
+    color: white !important;
+    text-decoration: overline;
+}
+
+.product-card {
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    .content .card img
+    {
+        height: 450px;
+    
+    }
+    
+}
+
