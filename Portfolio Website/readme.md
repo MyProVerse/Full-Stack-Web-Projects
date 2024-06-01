@@ -4,9 +4,9 @@ Welcome to portfolio website repository!, and provides a platform for contacting
 
 ## Pages
 
-1. **Home (Index)**: The landing page providing an introduction to me and my portfolio.
-2. **Contact**: A form for visitors to reach out to me with inquiries or collaboration opportunities.
-3. **Skills**: Overview of my skills and expertise in various technologies and domains.
+1. **Home (Index)**: The landing page providing an introduction.
+2. **Contact**: A form for visitors to reach out with inquiries or collaboration opportunities.
+3. **Skills**: Overview of skills and expertise in various technologies and domains.
 4. **Projects**: Showcase of my past and current projects, including descriptions and links.
 
 ## Technologies Used
